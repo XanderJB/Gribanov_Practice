@@ -1,4 +1,4 @@
-# Gribanov_Practice
+# Gribanov_Praktika
 Грибанов Александр. Учебная практика
 
 1) Расписание - https://docs.google.com/document/d/1b0F5WzC-N8_Dcp_QwcEm4tk91s-j4hvo/edit
