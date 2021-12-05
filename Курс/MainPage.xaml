@@ -7,14 +7,14 @@
        x:Class="XamarinApp1.MainPage">
 
 	<StackLayout >
-		<Label Text="Calc" Margin="5" FontSize="Large" FontAttributes="Bold"/>
-		<StackLayout Orientation="Horizontal" Spacing="50" HorizontalOptions="CenterAndExpand">
+		<Label Text="Calc" Margin="5" FontSize="Large" FontAttributes="Bold"/> //текст в заголовке
+		<StackLayout Orientation="Horizontal" Spacing="50" HorizontalOptions="CenterAndExpand"> //основной блок
 			<Entry x:Name="num1" WidthRequest="100" Keyboard="Numeric"/>
 			<Label Text="+"/>
 			<Entry x:Name="num2" WidthRequest="100" Keyboard="Numeric"/>
 		</StackLayout>
 		<Label Text="=" Margin="5" HorizontalTextAlignment="Center"/>
 		<Label x:Name="result" Margin="5" HorizontalTextAlignment="Center"/>
-		<Button Text="Calculate" Clicked="Button_Clicked"/>
+		<Button Text="Calculate" Clicked="Button_Clicked"/> //кнопка, которая выполняет операцию вычисления
 	</StackLayout>
 </ContentPage>
