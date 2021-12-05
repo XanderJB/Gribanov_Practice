@@ -3,7 +3,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 
-namespace XamarinApp1
+namespace App2
 {
 	[DesignTimeVisible(false)]
 	public partial class MainPage : ContentPage
